@@ -11,7 +11,7 @@ public class UserPrivateData
    /// <summary>
    /// User&#39;s Private Data
    /// </summary>
-   public Dictionary<string, object> PrivateData { get; set; }
+   public required Dictionary<string, object> PrivateData { get; set; }
 }
 
 

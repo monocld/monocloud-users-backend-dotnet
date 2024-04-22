@@ -11,22 +11,22 @@ public class UserUsername
    /// <summary>
    /// Unique identifier of the user email.
    /// </summary>
-   public Guid Id { get; set; }
+   public required Guid Id { get; set; }
 
    /// <summary>
    /// A list of identity providers the username is connected to.
    /// </summary>
-   public List<IdPs> Idps { get; set; }
+   public required List<IdPs> Idps { get; set; }
 
    /// <summary>
    /// A list of authenticators the username is connected to.
    /// </summary>
-   public List<Authenticators> Authenticators { get; set; }
+   public required List<Authenticators> Authenticators { get; set; }
 
    /// <summary>
    /// The username.
    /// </summary>
-   public string Username { get; set; }
+   public required string Username { get; set; }
 }
 
 

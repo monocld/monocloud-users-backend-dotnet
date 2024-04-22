@@ -11,7 +11,7 @@ public class UnblockIpRequest
    /// <summary>
    /// The ip address to be unblocked. Use &#39;all&#39; for unblocking all the ip addresses.
    /// </summary>
-   public string IpAddress { get; set; }
+   public required string IpAddress { get; set; }
 }
 
 

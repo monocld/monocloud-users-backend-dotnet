@@ -11,7 +11,7 @@ public class UserPublicData
    /// <summary>
    /// User&#39;s Public Data
    /// </summary>
-   public Dictionary<string, object> PublicData { get; set; }
+   public required Dictionary<string, object> PublicData { get; set; }
 }
 
 
