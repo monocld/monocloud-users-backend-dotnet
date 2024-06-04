@@ -44,7 +44,7 @@ public class SDKTests
   {
     SetMockResponse(new ExternalAuthenticatorDisconnectRequest());
 
-    await _usersClient.ExternalAuthenticatorDisconnectEndpointAsync("user", new ExternalAuthenticatorDisconnectRequest
+    await _usersClient.ExternalAuthenticatorDisconnectAsync("user", new ExternalAuthenticatorDisconnectRequest
     {
       Authenticator = ExternalAuthenticators.Apple
     });

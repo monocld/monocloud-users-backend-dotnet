@@ -23,7 +23,9 @@ public enum IdPs
 
     Twitter,
 
-    Linkedin
+    Linkedin,
+
+    Xero
 }
 
 

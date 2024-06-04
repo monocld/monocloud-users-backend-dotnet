@@ -27,7 +27,9 @@ public enum Authenticators
 
     Twitter,
 
-    Linkedin
+    Linkedin,
+
+    Xero
 }
 
 
